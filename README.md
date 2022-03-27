@@ -5,3 +5,5 @@ This is a simple C++ reverse shell that gives us a windows cmd shell over TCP co
 <br>
 Requirements:
 - mingw-w64 lib
+
+(works on windows only)
