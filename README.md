@@ -6,7 +6,7 @@ This is a simple C++ reverse shell that gives us a windows cmd shell over TCP co
 Requirements:
 - mingw-w64 lib
 
-(works on windows only)
+(works only if the person runnin this is on windows)
 
 # Compile it:
 `i686-w64-mingw32-g++ reverse.cpp -o reverse.exe -lws2_32 -lwininet -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc`
