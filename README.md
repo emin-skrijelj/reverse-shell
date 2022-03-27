@@ -9,7 +9,7 @@ Requirements:
 (works on windows only)
 
 # Compile it:
-`i686-w64-mingw32-g++ re.cpp -o re.exe -lws2_32 -lwininet -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc`
+`i686-w64-mingw32-g++ reverse.cpp -o reverse.exe -lws2_32 -lwininet -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc`
 
 # Netcat listener
 Turn on your netcat listener on the port you've put in the script:
